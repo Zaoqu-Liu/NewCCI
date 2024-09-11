@@ -1,0 +1,18 @@
+Package: NewCCI
+Type: Package
+Title: Identify Novel Cell-Cell Interactions
+Version: 1.0.0
+Authors@R: c(person("Zaoqu", "Liu", email = "liuzaoqu@163.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-0452-742X")))
+Description: This function allows users to input their hypothesized ligand candidates and apply statistical methods for receptor filtering in target cells, further revealing novel cell-cell interactions based on the CellChat algorithm.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    Seurat,
+    CellChat,
+    dplyr,
+    TimeCCI,
+    presto
+Depends: R (>= 3.1.0)
